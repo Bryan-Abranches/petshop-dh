@@ -1,0 +1,20 @@
+{
+  "name": "petshop-dh---copia",
+  "version": "1.0.0",
+  "description": "O nosso cliente tem um petshop e gostaria de criar uma aplicação onde seja possível falar mais sobre a sua empresa e que seja possível cadastrar os pets que estão disponível para adoção e os serviços realizados pelo petshop.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
