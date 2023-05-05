@@ -1,4 +1,8 @@
-# petshop-dh-fnts18
+# petshop-dh 
+
+Projeto Realizado no curso Web FullStack developer da Digital House, com intuito de revisar a utilização do Express.js no padrão MVC.
+
+Nesse Projeto realizei as atividades como revisão do conteudo ensinado no modulo de Express.
 
 ## Atividades
 
@@ -43,13 +47,13 @@ Nesta atividade iremos criar as rotas do nosso servidor, criar os controllers e 
 
 Para atingir esse objetivo será necessário:
 
--   [ ] Instalar o ejs.
+-   [x] Instalar o ejs.
     -   Documentação do ejs: https://ejs.co/
--   [ ] Configurar o servidor para trabalhar com o template engine ejs
--   [ ] Informar ao servidor aonde está a nossa pasta de views
--   [ ] Configurar o servidor para que todas as reqisições seja em JSON
--   [ ] Informar ao servidor a pasta de arquivos estáticos (public)
--   [ ] Alterar a extensão das views de `.html` para `.ejs`
+-   [x] Configurar o servidor para trabalhar com o template engine ejs
+-   [x] Informar ao servidor aonde está a nossa pasta de views
+-   [x] Configurar o servidor para que todas as reqisições seja em JSON
+-   [x] Informar ao servidor a pasta de arquivos estáticos (public)
+-   [x] Alterar a extensão das views de `.html` para `.ejs`
 
 **Obs: Fique de olho nas importações dos arquivos das views, pois já informarmos para o servidor que ele tem uma pasta de arquivos públicos, ou seja, não precisamos passar o path para ir até ela**
 
