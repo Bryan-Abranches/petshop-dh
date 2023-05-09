@@ -57,8 +57,8 @@ Para atingir esse objetivo será necessário:
 
 **Obs: Fique de olho nas importações dos arquivos das views, pois já informarmos para o servidor que ele tem uma pasta de arquivos públicos, ou seja, não precisamos passar o path para ir até ela**
 
--   [ ] Criar a pasta de rotas. Dentro da pasta de rotas criar os arquivos que achar necessários para rotas.
--   [ ] Na pasta de rotas criar o arquivo: `home.js` onde deve ter as seguintes rotas:
+-   [x] Criar a pasta de rotas. Dentro da pasta de rotas criar os arquivos que achar necessários para rotas.
+-   [x] Na pasta de rotas criar o arquivo: `home.js` onde deve ter as seguintes rotas:
 
 | Route      | Method | Description                       |
 | :--------- | :----- | :-------------------------------- |
@@ -68,7 +68,7 @@ Para atingir esse objetivo será necessário:
 | `contato`  | GET    | Deve renderizar a view `contato`  |
 | `servicos` | GET    | Deve renderizar a view `servicos` |
 
--   [ ] Criar o controller para tratar estas rotas
+-   [x] Criar o controller para tratar estas rotas
 
 #
 
