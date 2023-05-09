@@ -46,7 +46,23 @@ a.btn.btn-primary {
 	background-color: #ffbe51;
 	border-color: #ffbe51;
 	color: #fff;
+	transition: all 500ms;
 }
+
+.btn.btn-primary:hover{
+	transform: scale(1.005);
+	transition: all 700ms;
+	cursor: pointer;
+}
+
+.btn.btn-primary:active{
+	transform: scale(.99);
+	transition: all 500ms;
+
+}
+
+
+
 
 .align-row {
 	display: flex;
@@ -269,4 +285,24 @@ section.contato h1 {
 section.contato a:any-link,
 section.contato p {
 	color: #575757;
+}
+
+
+/* Cadastro */
+
+.cadastro > div {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgba(0, 0, 0, 0.455);
+	width: 800px;
+	padding: 10px;
+}
+
+.cadastro div form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	gap: 15px
+
 }
