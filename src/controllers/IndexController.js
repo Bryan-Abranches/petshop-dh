@@ -1,16 +1,20 @@
+const Servico = require("../models/Servico");
+
 const IndexController = {
   showIndex: (req, res) => {
     res.render("index");
   },
   showContato: (req, res) => {
-    res.render('contato');
+    res.render("contato");
   },
   showServicos: (req, res) => {
-    res.render('servicos');
+    const servicos = Servico.findAll();
+
+    res.render("servicos", { servicos });
   },
   showSobre: (req, res) => {
-    res.render('sobre');
-  }, 
+    res.render("sobre");
+  },
 };
 
 module.exports = IndexController;

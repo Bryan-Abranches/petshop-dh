@@ -80,11 +80,11 @@ Nesta atividade iremos utilizar o poder do ejs para realizar a renderização di
 
 Para atingir esse objetivo será necessário:
 
--   [ ] Olhe cada view e verifique quais elementos podemos transformar em componentes. Dentro da nossa camada da **View** crie uma pasta chamada `components` e dentro desta pasta, crie os arquivos que você julgar necessário componentizar e insira os componentes nas views que precisam utilizar ele.
+-   [x] Olhe cada view e verifique quais elementos podemos transformar em componentes. Dentro da nossa camada da **View** crie uma pasta chamada `components` e dentro desta pasta, crie os arquivos que você julgar necessário componentizar e insira os componentes nas views que precisam utilizar ele.
 
     -   **Dica: Componentizar é pouparmos trabalho de repetir o mesmo código em cada view, para isso, identifique os elementos que mais se repetem na página para transforma-lo em um componente.**
 
--   [ ] No arquivo db.json, vamos criar um banco de dados fake para conseguimos renderizar os dados, insira os seguintes dados nele:
+-   [x] No arquivo db.json, vamos criar um banco de dados fake para conseguimos renderizar os dados, insira os seguintes dados nele:
 
 ```JSON
 {
@@ -145,9 +145,11 @@ Para atingir esse objetivo será necessário:
 }
 ```
 
--   [ ] Na camada model, crie o arquivo; `Service.js` neste arquivo deve ficar a lógica para consular o banco de dados
--   [ ] Crie o método findAll() que retorne todos os serviços.
-    -   [ ] Obs: Os dados do banco de dados devem ser mapeados da seguinte maneira:
+-   [x] Na camada model, crie o arquivo; `Service.js` neste arquivo deve ficar a lógica para consular o banco de dados
+
+-   [x] Crie o método findAll() que retorne todos os serviços.
+
+    -   [x] Obs: Os dados do banco de dados devem ser mapeados da seguinte maneira:
         -   ```javascript
               {
                   id: ...,
@@ -157,8 +159,8 @@ Para atingir esse objetivo será necessário:
                   imagem: ...
               }
             ```
--   [ ] Importar o service no controller `HomeController` e utilizar o método para retornar os serviços.
--   [ ] Renderizar os serviços cadastrados no banco de dados na view de serviços.
+-   [x] Importar o service no controller `HomeController` e utilizar o método para retornar os serviços.
+-   [x] Renderizar os serviços cadastrados no banco de dados na view de serviços.
 
 #
 
