@@ -31,6 +31,14 @@ section {
 	padding: 100px 0;
 }
 
+.input{
+	height: 35px;
+	border: 1px solid #555
+
+}
+
+
+
 .btn,
 a.btn:any-link {
 	display: inline-block;
@@ -306,3 +314,26 @@ section.contato p {
 	gap: 15px
 
 }
+
+/* CSS - Login */
+
+.login{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.login form{
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+
+}
+
+.login p a{
+	text-decoration: none;
+	color:#6495ed;
+}
+
+

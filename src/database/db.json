@@ -38,17 +38,17 @@
     ],
     "users": [{
             "id": 1,
-            "firstName": "John",
-            "lastName": "Doe",
-            "email": "john@mail.com",
+            "firstName": "Bryan",
+            "lastName": "Abranches",
+            "email": "bryan@mail.com",
             "password": "123456",
             "isAdmin": true
         },
         {
             "id": 2,
-            "firstName": "Lorem",
-            "lastName": "Ipsum",
-            "email": "lorem@mail.com",
+            "firstName": "Fabiana",
+            "lastName": "Cristina",
+            "email": "fabi@mail.com",
             "password": "123456",
             "isAdmin": false
         }
