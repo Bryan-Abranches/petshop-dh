@@ -3,6 +3,7 @@ const db = require("../database/db.json");
 const Servico = {
   findAll: () => {
     const servico = [];
+    
     db.services.map((service) => {
       servico.push({
         id: service.id,

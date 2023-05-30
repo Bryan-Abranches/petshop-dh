@@ -7,6 +7,7 @@ const methodOverride = require('method-override')
 const IndexRouter = require("./routers/indexRouter");
 const cadastroRouter = require('./routers/cadastroRouter')
 const loginRouter = require('./routers/loginRouter')
+const adminRouter = require('./routers/adminRouter')
 
 /* Variaveis */
 const app = express();
@@ -28,6 +29,7 @@ app.use(express.static(path.resolve("src", "public"))); //Informar ao servidor a
 app.use("/", IndexRouter);
 app.use('/cadastro', cadastroRouter)
 app.use('/login', loginRouter)
+app.use('/admin', adminRouter)
 
 
 /* Servidor */

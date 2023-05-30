@@ -10,22 +10,33 @@ const LoginController = {
     console.log(users);
 
     const { email, password } = req.body;
-    console.log(req.body);
 
-    const userFound = users.find((user) => {
-      user.email === email;
-    });
+    //console.log(req.body); dados enviados na requisição
 
-    console.log(userFound); // Continuar aular 28min
+    const userFound = users.find((user) => user.email === email);
+
+    //console.log(userFound); // Usuario encontrado
 
     if (!userFound) {
       return console.log("Usuario nao encontrado");
     }
 
-    console.log(req.body);
+    const isValidPassword = userFound.password === password;
+
+    //console.log(isValidPassword) retorno da senha valida
+
+    if (!isValidPassword) {
+      // validação da senha
+      console.log("Email ou senha invalido");
+      return;
+    }
+
+    if (!userFound.isAdmin) {
+      return res.redirect("/");
+    }
+
+    return res.redirect("/admin/home");
   },
 };
-
-
 
 module.exports = LoginController;

@@ -2,7 +2,9 @@ const Servico = require("../models/Servico");
 
 const IndexController = {
   showIndex: (req, res) => {
-    res.render("index");
+    const servicos = Servico.findAll();
+
+    res.render("index", { servicos });
   },
   showContato: (req, res) => {
     res.render("contato");
